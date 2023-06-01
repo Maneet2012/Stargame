@@ -1,0 +1,52 @@
+#stars{
+    width:70px;
+    height:70px; 
+    position: absolute;   
+    top:200px;
+    left:400px;
+    border-radius:1000px;
+    padding:10px;
+    transition:0.2s all ease;
+    }
+    body{
+        background-color: black;
+        background-image: url('https://th.bing.com/th/id/R.9639fd588807de3bd619b6af9bbb7ea3?rik=d9zoEeb8EIjmiw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-aL_hR261Hd4%2fUD9dgu00j3I%2fAAAAAAAAIoM%2fZlCil88E2g4%2fs1600%2fOuter%2bSpace%2bWallpapers%2b1.jpg&ehk=rQjCq94Jrdw2lEKVVGNS6nqCqTsupuhzEtfh5vl7AdE%3d&risl=&pid=ImgRaw&r=0');
+        background-size: cover;
+        overflow:hidden;
+        color:white;
+    }
+    
+    #stars:hover {
+        width:80px;
+        height:80px;
+      }
+      
+      
+      #stars:active {
+        border: 2px solid rgb(255, 255, 255);
+      }
+      
+      #heading {
+        font-size: 32px;
+        color:lightyellow;
+        font-weight: normal;
+      }
+      
+      #gameover{
+        display:none;
+        position:absolute;
+        top:200px;
+        width:100%;
+        text-align: center;
+        font-size:72px;
+        color:lightyellow;
+        text-shadow:3px 3px 10px red;
+      }
+      
+      #score {
+        position:absolute;
+        right:10px;
+        bottom:10px;
+        font-size:100px;
+        color:white;
+      }
